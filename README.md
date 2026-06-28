@@ -1,4 +1,5 @@
-# AI News Aggregator
+# AI-Powered-Personalized-News-Aggregation-and-Digest-System-Using-Large-Language-Models
+
 
 An intelligent news aggregation system that scrapes AI-related content from multiple sources (YouTube channels, RSS feeds), processes them with LLM-powered summarization, curates personalized digests based on user preferences, and delivers daily email summaries.
 
