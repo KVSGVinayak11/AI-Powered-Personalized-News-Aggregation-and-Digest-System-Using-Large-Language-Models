@@ -1,16 +1,11 @@
 # AI-Powered-Personalized-News-Aggregation-and-Digest-System-Using-Large-Language-Models
 
 
-An intelligent news aggregation system that scrapes AI-related content from multiple sources (YouTube channels, RSS feeds), processes them with LLM-powered summarization, curates personalized digests based on user preferences, and delivers daily email summaries.
+An AI-powered news aggregation platform that collects content from diverse sources such as YouTube and RSS feeds, uses LLMs to generate concise summaries, creates personalized news digests based on user interests, and sends them via daily email updates.
 
 ## Overview
 
-This project aggregates AI news from multiple sources:
-- **YouTube Channels**: Scrapes videos and transcripts from configured channels
-- **RSS Feeds**: Monitors OpenAI and Anthropic blog posts
-- **Processing**: Converts content to markdown, generates summaries, and creates digests
-- **Curation**: Ranks articles by relevance to user profile using LLM
-- **Delivery**: Sends personalized daily email digests
+This project is an intelligent AI news aggregation system that collects content from multiple sources, including YouTube channels and RSS feeds from platforms such as OpenAI and Anthropic. It processes the collected content by converting it into markdown, generating concise summaries, and creating curated news digests. An LLM ranks the content based on its relevance to the user’s profile and interests, enabling personalized recommendations. The system then delivers these tailored AI news updates through daily email digests.
 
 ## Architecture
 
