@@ -23,14 +23,20 @@ graph LR
     C --> E[Curator<br/>LLM Ranking]
     E --> F[Email<br/>Personalized Digest]
     F --> G[Delivery<br/>Gmail SMTP]
-    
-    style A fill:#e1f5ff
-    style B fill:#fff4e1
-    style C fill:#e8f5e9,stroke:#4caf50,stroke-width:3px
-    style D fill:#fff4e1
-    style E fill:#f3e5f5
-    style F fill:#f3e5f5
-    style G fill:#ffe1f5
+
+    classDef source fill:#e1f5ff,stroke:#0288d1,stroke-width:2px,color:#01579b,font-weight:bold;
+    classDef process fill:#fff4e1,stroke:#f9a825,stroke-width:2px,color:#5d4037,font-weight:bold;
+    classDef database fill:#e8f5e9,stroke:#4caf50,stroke-width:3px,color:#1b5e20,font-weight:bold;
+    classDef llm fill:#f3e5f5,stroke:#8e24aa,stroke-width:2px,color:#4a148c,font-weight:bold;
+    classDef delivery fill:#ffe1f5,stroke:#d81b60,stroke-width:2px,color:#880e4f,font-weight:bold;
+
+    class A source;
+    class B process;
+    class C database;
+    class D process;
+    class E llm;
+    class F llm;
+    class G delivery;
 ```
 
 ## How It Works
